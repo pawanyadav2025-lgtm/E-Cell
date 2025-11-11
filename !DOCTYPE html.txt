@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Cell | GLBIMR</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="logo.png" alt="E-Cell GLBIMR Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#join">Join Us</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Welcome to E-Cell, GLBIMR</h1>
+      <p>Empowering Innovation & Entrepreneurship</p>
+      <a href="#about" class="btn">Discover More</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        The E-Cell at GLBIMR is dedicated to fostering an entrepreneurial mindset among students by providing them with the resources, mentorship, and exposure needed to turn their ideas into successful ventures.
+      </p>
+      <div class="about-grid">
+        <div>
+          <h3>Vision</h3>
+          <p>To become a premier platform for nurturing future leaders and entrepreneurs who will create meaningful impact in society.</p>
+        </div>
+        <div>
+          <h3>Mission</h3>
+          <p>
+            - Cultivate entrepreneurial skills<br>
+            - Organize workshops, seminars, and competitions<br>
+            - Facilitate networking with industry experts and startups
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" class="bg-light">
+    <div class="container">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Winner: National Startup Challenge 2024</li>
+        <li>Incubated 5+ student startups in the last year</li>
+        <li>Hosted 10+ workshops with industry leaders</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="container">
+      <h2>Events</h2>
+      <div class="event-list">
+        <div class="event-card">
+          <h3>Entrepreneurship Workshop</h3>
+          <p>Nov 2024 | With Startup India</p>
+        </div>
+        <div class="event-card">
+          <h3>E-Summit 2024</h3>
+          <p>Oct 2024 | 500+ participants | 15+ speakers</p>
+        </div>
+        <!-- Add more event cards -->
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="bg-light">
+    <div class="container">
+      <h2>Our Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="member1.jpg" alt="President" />
+          <h4>Pawan Yadav</h4>
+          <p>President</p>
+        </div>
+        <div class="team-member">
+          <img src="member2.jpg" alt="Faculty Coordinator" />
+          <h4>Dr. Anita Sharma</h4>
+          <p>Faculty Coordinator</p>
+        </div>
+        <!-- Add more team members -->
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="gallery1.jpg" alt="Event 1" />
+        <img src="gallery2.jpg" alt="Event 2" />
+        <img src="gallery3.jpg" alt="Workshop" />
+        <!-- Add more images -->
+      </div>
+    </div>
+  </section>
+
+  <section id="join" class="bg-light">
+    <div class="container">
+      <h2>Join Us</h2>
+      <p>Passionate about entrepreneurship? <b>Become a member!</b></p>
+      <a href="https://forms.gle/your-form-link" class="btn">Apply Now</a>
+    </div>
+  </section>
+
+  <section id="sponsors">
+    <div class="container">
+      <h2>Sponsors & Partners</h2>
+      <div class="sponsors-logos">
+        <img src="sponsor1.png" alt="Sponsor 1" />
+        <img src="sponsor2.png" alt="Sponsor 2" />
+        <!-- Add more sponsors -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:e-cell@glbimr.ac.in">e-cell@glbimr.ac.in</a></p>
+        <p>Location: GL Bajaj Institute of Management & Research, Greater Noida</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 E-Cell, GLBIMR | Made with ♥ by the E-Cell Team</p>
+    </div>
+  </footer>
+</body>
+</html>

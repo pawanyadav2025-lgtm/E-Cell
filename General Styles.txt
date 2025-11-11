@@ -1,0 +1,211 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8fafc;
+  color: #222;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+header {
+  background: #1e2350;
+  color: #fff;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 16px;
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #09d6a4;
+}
+
+.hero {
+  background: linear-gradient(120deg, #43e97b 0%, #38f9d7 100%);
+  color: #112030;
+  text-align: center;
+  padding: 80px 0 60px;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  background: #1e2350;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn:hover { background: #09d6a4; color: #112030; }
+
+section {
+  padding: 48px 0;
+}
+.bg-light {
+  background: #f3f6fa;
+}
+
+h2 {
+  margin-bottom: 22px;
+  color: #1e2350;
+}
+
+.about-grid {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.about-grid > div {
+  flex: 1;
+  min-width: 220px;
+}
+
+#achievements ul {
+  list-style: disc;
+  padding-left: 22px;
+  color: #222;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.event-card {
+  flex: 1 0 200px;
+  background: #fff;
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(32,40,90,0.07);
+}
+.event-card h3 {
+  margin-top: 0;
+}
+
+.team-grid {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.team-member {
+  flex: 1 0 160px;
+  background: #fff;
+  padding: 18px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(32,40,90,0.07);
+}
+.team-member img {
+  width: 90px; height: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 14px;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px #b5e2dc;
+}
+
+.sponsors-logos {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sponsors-logos img {
+  height: 56px;
+  max-width: 150px;
+  background: #fff;
+  padding: 8px 18px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px #c8e0dd;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 430px;
+  margin-bottom: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d5e4f3;
+  font-size: 1rem;
+  background: #fff;
+}
+.contact-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+.contact-info {
+  margin-top: 10px;
+}
+
+footer {
+  background: #202355;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .about-grid,
+  .team-grid,
+  .sponsors-logos,
+  .event-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container {
+    padding: 32px 8px;
+  }
+  header .container {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 600px) {
+  .hero h1 { font-size: 1.5rem; }
+  .hero p { font-size: 1rem; }
+}
